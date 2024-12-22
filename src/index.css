@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.logo p{
+  font-size: 15px;
+  color: white;
+}
+
+.Content{
+  margin: 30px;
+  height:83vh;
+  width: 96%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px ;
+  position: relative;
+  min-width: 325px;
+}
+.chat {
+  z-index: 100;
+  position: absolute;
+  top:65%;
+  right:0%;
+  float: right;
+  border: grey solid;
+}
+
+.Content span{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
+
+.Options_container{
+  border-top: 5px solid grey;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Options {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.Options  div {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1 1 calc(33.333% - 20px); 
+  text-decoration: none;
+  box-sizing: border-box;
+  min-width: 150px; 
+  text-align: center;
+}
+
+.Options  div a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Options  div a:hover{
+  transform: scale(1.20);
+}
