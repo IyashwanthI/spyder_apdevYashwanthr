@@ -1,0 +1,8 @@
+server/cdtserver/cdtserver.js
+server/chatserver/app.js
+need to be run separately (for checking each server) or by use of concurrently api 
+
+server/mongobackend/mongo.js 
+needs your user,password,cluster link in format const uri = "mongodb+srv://<db_user>:<db_password>@<clustername etc..>";
+
+
